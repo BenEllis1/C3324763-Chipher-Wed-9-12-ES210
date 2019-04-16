@@ -33,7 +33,7 @@ void do_encryption(char *ab,char *cd)
                 }
                 ab[i]=j+65;         // j will be between 0 and 25 so just add 65 to convert to ascii letter
                 break;
-            default:
+            default:                // this should never occur but its there in case
             break;
                     
        }  
